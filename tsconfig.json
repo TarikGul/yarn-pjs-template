@@ -1,0 +1,15 @@
+{
+    "extends": "@substrate/dev/config/tsconfig.json",
+    "compilerOptions": {
+      "baseUrl": ".",
+      "outDir": "lib",
+      "suppressImplicitAnyIndexErrors": true,
+      "resolveJsonModule": true,
+    },
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "exclude": [
+      "node_modules",
+    ],
+  }
